@@ -32,16 +32,16 @@ Copy the `extensions/coding/karpathy-principles/` directory into your AI-DLC rul
 
 ```
 aidlc-rules/
-  aws-aidlc-rule-details/
-    extensions/
-      coding/
-        karpathy-principles/
-          karpathy-principles.md          # Full rules (loaded on opt-in)
-          karpathy-principles.opt-in.md   # Opt-in prompt
-      security/
-        baseline/
-      testing/
-        property-based/
+└── aws-aidlc-rule-details/
+    └── extensions/
+        ├── coding/
+        │   └── karpathy-principles/
+        │       ├── karpathy-principles.md          # Full rules (loaded on opt-in)
+        │       └── karpathy-principles.opt-in.md   # Opt-in prompt
+        ├── security/
+        │   └── baseline/
+        └── testing/
+            └── property-based/
 ```
 
 No modification to `core-workflow.md` is needed. AI-DLC automatically discovers extensions by scanning the `extensions/` directory recursively at workflow start.
