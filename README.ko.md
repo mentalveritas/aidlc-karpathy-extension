@@ -1,5 +1,7 @@
 # aidlc-karpathy-extension
 
+[English](README.md) | [简体中文](README.zh-CN.md) | [日本語](README.ja.md)
+
 AI-DLC 확장으로, Andrej Karpathy의 코딩 원칙(단순함, 최소 변경, 목표 기반 실행)을 코드 생성 단계에서 블로킹 제약 조건으로 적용합니다.
 
 ## 이게 뭔가요?
