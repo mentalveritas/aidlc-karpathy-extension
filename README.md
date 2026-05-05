@@ -1,5 +1,7 @@
 # aidlc-karpathy-extension
 
+[한국어](README.ko.md)
+
 AI-DLC extension that enforces Andrej Karpathy's coding principles -- simplicity, surgical changes, and goal-driven execution -- as blocking constraints during code generation.
 
 ## What is this?
